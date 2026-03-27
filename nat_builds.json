@@ -1,0 +1,10 @@
+{
+  "test": {
+    "gateway": "10.10.1.1",
+    "subnet": "10.10.1.0/24",
+    "uplink": "NAT Uplink",
+    "dns_primary": "",
+    "dns_secondary": "",
+    "last_applied": "13:02:35"
+  }
+}

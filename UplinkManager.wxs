@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="Uplink Manager" Language="1033" Version="1.3.3.7" Manufacturer="samjage" UpgradeCode="993dff09-8800-4cc0-9f5f-2b88be50d0c9">
+
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" Platform="x64" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of Uplink Manager is already installed." />
+    <MediaTemplate />
+
+    <Icon Id="UplinkManagerIcon" SourceFile="uplink_manager.ico" />
+    <Property Id="ARPPRODUCTICON" Value="UplinkManagerIcon" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="Uplink Manager" />
+      </Directory>
+      <!-- Add the Start Menu folder -->
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ProgramMenuSubfolder" Name="Uplink Manager" />
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="cmpMainFiles" Guid="fae7711f-1ccd-49dc-a102-46a4768c67c7" Win64="yes">
+        <File Id="fileUplinkExe" Source="dist\Uplink Manager.exe" KeyPath="yes" />
+        <File Id="fileUplinkPs1" Source="uplink_manager_installer.ps1" />
+        <File Id="fileUplinkIcon" Source="uplink_manager.ico" />
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="ProgramMenuSubfolder">
+      <Component Id="cmpStartMenuShortcut" Guid="f73ad4c2-1e9a-40e3-b4f7-f41e518daf91">   <!-- Replace with a real GUID -->
+        <Shortcut Id="StartMenuShortcut"
+                  Name="Uplink Manager"
+                  Target="[INSTALLFOLDER]Uplink Manager.exe"
+                  WorkingDirectory="INSTALLFOLDER"
+                  Icon="UplinkManagerIcon" />
+        <RegistryValue Root="HKCU" Key="Software\Uplink Manager" Name="startmenu" Type="integer" Value="1" KeyPath="yes" />
+        <RemoveFolder Id="RemoveProgramMenuSubfolder" Directory="ProgramMenuSubfolder" On="uninstall" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainFeature" Level="1">
+      <ComponentRef Id="cmpMainFiles" />
+      <ComponentRef Id="cmpStartMenuShortcut" />
+    </Feature>
+
+    <CustomAction Id="RunUplinkInstaller"
+                  Directory="INSTALLFOLDER"
+                  ExeCommand='[SystemFolder]WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -NoLogo -NoProfile -File "uplink_manager_installer.ps1"'
+                  Execute="deferred"
+                  Return="ignore"
+                  Impersonate="no"
+                  HideTarget="yes" />
+
+    <InstallExecuteSequence>
+      <Custom Action="RunUplinkInstaller" After="InstallFiles">NOT REMOVE</Custom>
+    </InstallExecuteSequence>
+
+  </Product>
+</Wix>
