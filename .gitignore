@@ -1,0 +1,55 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.spec
+
+# PyInstaller – keep your main .spec file, but ignore auto‑generated ones
+*.manifest
+*.pyd
+!Uplink Manager.spec
+!uplink_manager.spec
+
+# WiX build outputs – keep the .wxs source, ignore the rest
+*.wixobj
+*.wixpdb
+*.msi
+*.cab
+!UplinkManager.wxs
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# User data (created by the app in AppData, not in repo)
+nat_builds.json
+nat_settings.json
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
