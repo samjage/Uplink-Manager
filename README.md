@@ -1,3 +1,4 @@
+![uplink_manager.ico](./uplink_manager.ico)
 # Uplink Manager
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
