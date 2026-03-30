@@ -1,7 +1,19 @@
 ![uplink_manager.ico](./uplink_manager.ico)
 # Uplink Manager
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
+[![GitHub Downloads (latest)](https://img.shields.io/github/downloads/samjage/Uplink-Manager/latest/total?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/stargazers)
+
+### 🚀 Install
+[![Download MSI](https://img.shields.io/badge/📦%20Download%20MSI-0078D6?style=for-the-badge&logo=windows)](https://github.com/samjage/Uplink-Manager/releases/latest/download/Uplink.Manager.msi)
+[![Install via PowerShell](https://img.shields.io/badge/⚡%20Install%20via%20PowerShell-2C2C2C?style=for-the-badge&logo=powershell)](https://github.com/samjage/Uplink-Manager#quick-install)
+
+### 🔧 Requirements
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue?style=flat-square&logo=python)](https://www.python.org/)
+[![Built with Textual](https://img.shields.io/badge/built%20with-Textual-ff69b4?style=flat-square&logo=python)](https://textual.textualize.io/)
+[![Windows 11](https://img.shields.io/badge/Windows%2011-Compatible-0078D6?style=flat-square&logo=windows)](https://www.microsoft.com/windows/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 **Uplink Manager** is a Windows utility that configures WinNAT to provide internet access to downstream devices via a dedicated **NAT Uplink** adapter. It’s designed for engineers who need to quickly set up network address translation on a Windows 11 Pro VM (e.g., VMware, Hyper‑V) with a few clicks. The tool also supports a **DNS proxy** that forwards DNS requests from clients to external resolvers (like 8.8.8.8).
 ---
