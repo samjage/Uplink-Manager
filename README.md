@@ -47,7 +47,7 @@ Open **PowerShell as Administrator** and run:
 irm https://raw.githubusercontent.com/samjage/Uplink-Manager/main/uplink_manager_installer.ps1 | iex
 ```
 
-## 🚀 Installation
+## 🚀 MSI Installation
 
 ### 1. Download the MSI installer
 
