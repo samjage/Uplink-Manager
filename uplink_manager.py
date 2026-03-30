@@ -677,7 +677,7 @@ class UplinkManagerApp(App):
     .stat-box:last-of-type { margin-right: 0; }
 
     #stat-dns-label          { margin-top: 1; color: transparent; }
-    #stat-dns-label.visible  { color: $text-muted; text-style: bold; }
+    #stat-dns-label.visible  { color: $text-muted; text-style: bold; margin-top: 1; margin-bottom: 1; }
     .stat-dns-ip             { color: transparent; text-style: bold; height: 1; }
     .stat-dns-ip.visible     { color: #fabd2f; }
 
@@ -1227,8 +1227,6 @@ class UplinkManagerApp(App):
             dns_fields.add_class("visible")
         else:
             dns_fields.remove_class("visible")
-            self.query_one("#inp-dns-primary",   Input).value = ""
-            self.query_one("#inp-dns-secondary", Input).value = ""
 
     @on(Input.Changed, "#inp-dns-primary")
     def validate_dns_primary_live(self, event: Input.Changed):
