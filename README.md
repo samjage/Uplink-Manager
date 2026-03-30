@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/stargazers)
 
 ### 🚀 Install
-[![Download MSI](https://img.shields.io/badge/📦%20Download%20MSI-0078D6?style=for-the-badge&logo=windows)](https://github.com/samjage/Uplink-Manager/releases/latest/download/Uplink.Manager.msi)
+[![Download MSI](https://img.shields.io/badge/📦%20Download%20MSI-0078D6?style=for-the-badge&logo=windows)](https://github.com/samjage/Uplink-Manager/releases))
 [![Install via PowerShell](https://img.shields.io/badge/⚡%20Install%20via%20PowerShell-2C2C2C?style=for-the-badge&logo=powershell)](https://github.com/samjage/Uplink-Manager#quick-install)
 
 ### 🔧 Requirements
