@@ -36,6 +36,14 @@
 
 ---
 
+## <a name="quick-install"></a>⚡ Quick Install
+
+Open **PowerShell as Administrator** and run:
+
+```powershell
+irm https://raw.githubusercontent.com/samjage/Uplink-Manager/main/uplink_manager_installer.ps1 | iex
+```
+
 ## 🚀 Installation
 
 ### 1. Download the MSI installer
