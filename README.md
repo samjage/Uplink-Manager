@@ -15,6 +15,8 @@
 [![Windows 11](https://img.shields.io/badge/Windows%2011-Compatible-0078D6?style=flat-square&logo=windows)](https://www.microsoft.com/windows/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
+## 📰 Description
+
 **Uplink Manager** is a Windows utility that configures WinNAT to provide internet access to downstream devices via a dedicated **NAT Uplink** adapter. It’s designed for engineers who need to quickly set up network address translation on a Windows 11 Pro VM (e.g., VMware, Hyper‑V) with a few clicks. The tool also supports a **DNS proxy** that forwards DNS requests from clients to external resolvers (like 8.8.8.8).
 ---
 
