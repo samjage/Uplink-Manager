@@ -1,5 +1,8 @@
-![uplink_manager.ico](./uplink_manager.ico)
-# Uplink Manager
+<p align="center">
+ <img src="uplink_manager.ico" alt="Uplink Manager Icon">
+</p>
+
+### Uplink Manager
 
 [![GitHub release](https://img.shields.io/github/v/release/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
 [![GitHub Downloads (latest)](https://img.shields.io/github/downloads/samjage/Uplink-Manager/latest/total?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
