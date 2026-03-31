@@ -3,19 +3,17 @@
 </p>
 
 ### Uplink Manager
-
-[![GitHub release](https://img.shields.io/github/v/release/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
-[![GitHub Downloads (latest)](https://img.shields.io/github/downloads/samjage/Uplink-Manager/latest/total?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/samjage/Uplink-Manager?style=flat-square&logo=github)](https://github.com/samjage/Uplink-Manager/stargazers) [![Built with Textual](https://img.shields.io/badge/built%20with-Textual-ff69b4?style=flat-square&logo=python)](https://textual.textualize.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/samjage/Uplink-Manager?style=flat&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
+[![GitHub Downloads (latest)](https://img.shields.io/github/downloads/samjage/Uplink-Manager/latest/total?style=flat&logo=github)](https://github.com/samjage/Uplink-Manager/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/samjage/Uplink-Manager?style=flat&logo=github)](https://github.com/samjage/Uplink-Manager/stargazers) [![Built with Textual](https://img.shields.io/badge/built%20with-Textual-ff69b4?style=flat&logo=python)](https://textual.textualize.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
 
 ### 🚀 Install
-[![Download MSI](https://img.shields.io/badge/📦%20Download%20MSI-0078D6?style=for-the-badge&logo=windows)](https://github.com/samjage/Uplink-Manager/releases)
-[![Install via PowerShell](https://img.shields.io/badge/⚡%20Install%20via%20PowerShell-2C2C2C?style=for-the-badge&logo=powershell)](https://github.com/samjage/Uplink-Manager#quick-install)
+[![Download MSI](https://img.shields.io/badge/📦%20Download%20MSI-0078D6?style=flat&logo=windows)](https://github.com/samjage/Uplink-Manager/releases)
+[![Install via PowerShell](https://img.shields.io/badge/⚡%20Install%20via%20PowerShell-2C2C2C?style=flat&logo=powershell)](https://github.com/samjage/Uplink-Manager#quick-install)
 
-### 🔧 Requirements
+### 🎯 Target
 
-[![Windows 11](https://img.shields.io/badge/Windows%2011-Compatible-0078D6?style=flat-square&logo=windows)](https://www.microsoft.com/windows/)
-
+[![Windows 11 ](https://img.shields.io/badge/Windows%2011-Compatible-0078D6?logo=windows11&logoColor=white)](https://www.microsoft.com/windows/) [![VMware ESXi ](https://img.shields.io/badge/VMware%20ESXi-Compatible-394F5F?)](https://www.vmware.com/products/esxi-and-esx.html) [![VMware vSphere ](https://img.shields.io/badge/VMware%20vSphere-Compatible-394F5F?)](https://www.vmware.com/products/vsphere.html)
 
 ## 📰 Description
 
